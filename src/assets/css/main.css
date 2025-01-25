@@ -1,0 +1,17 @@
+/* Fonts */
+@import './fonts.css';
+
+/* Colors */
+@import './colors.css';
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Body */
+body {
+  background: var(--dark-0);
+}

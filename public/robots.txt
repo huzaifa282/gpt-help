@@ -1,0 +1,16 @@
+# Allow all search engines
+User-agent: *
+
+# Disallow specific folders or files
+Disallow: /wp-admin/        # For WordPress admin area
+Disallow: /cgi-bin/         # Common server scripts
+Disallow: /temp/            # Temporary files
+Disallow: /private/         # Private content
+Disallow: /search           # Search results pages (if applicable)
+
+# Block indexing of specific file types
+Disallow: /*.pdf$           # Block PDF files
+Disallow: /*.zip$           # Block ZIP files
+
+# Sitemap location
+Sitemap: https://www.cyde.xyz/sitemap.xml
